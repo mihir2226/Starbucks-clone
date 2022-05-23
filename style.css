@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap');
+
+/* reset */
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+/* utilities */
+.container {
+    
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    padding: 6.4px 16px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+.btn-primary {
+    border: 1px solid rgba(0, 0, 0, 0.87);
+}
+
+.btn-primary:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.btn-secondary {
+    background-color: black;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-white {
+    border-color: white;
+    color: white;
+}
+
+.lg {
+    font-size: 36px !important;
+}
+
+.p-lg {
+    font-size: 16px !important;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.mb-1 {
+    margin-bottom: 32px;
+}
+
+/* navbar */
+header {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-left img {
+    height: 50px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li {
+    margin-left: 20px;
+}
+
+.nav-left ul li a {
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    color: #00754a;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location a:hover {
+    color: #00754a;
+}
+.nav-right .location {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-right .location a {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.location img {
+    height: 20px;
+}
+
+.nav-right button {
+    margin-left: 20px;
+}
+
+/* Box styles */
+.box {
+    margin-top: 32px;
+}
+
+.box-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.box .box-container {
+    display: flex;
+}
+
+.box-text {
+    width: 50%;
+    padding: 32px 80px;
+    background-color: #1e3932;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-text h1 {
+    font-size: 50px;
+}
+
+.box-text p {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-size: 24px;
+}
+
+.box-img {
+    width: 50%;
+}
+
+.box-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.btn-secondary .container {
+    flex-direction: row-reverse;
+}
+
+.box-light {
+    background-color: #d4e9e2;
+    color: black;
+}
+
+.box-light h1 {
+    font-weight: normal;
+}
